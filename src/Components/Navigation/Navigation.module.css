@@ -1,0 +1,30 @@
+.mainNav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 2.7rem;
+}
+
+.mainNav li{
+    margin-left: 2rem;
+}
+
+.mainNav a{
+    text-decoration: none;
+    color: white;
+}
+
+.backgrLi{
+    background-color: rgb(255, 71, 163);
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 18px 25px;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.backgrLi a:hover,
+.backgrLi a:active{
+    color: rgba(71, 63, 71, 0.479);
+}

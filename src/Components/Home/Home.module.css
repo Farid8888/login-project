@@ -1,0 +1,11 @@
+.home{
+    width: 40rem;
+    max-width: 95%;
+    margin: 1.3rem auto;
+    padding: 4rem 40px 3rem;
+    text-align: center;
+}
+
+.actions{
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+.btn{
+    font-size: 1.3rem;
+    border-radius: 3rem;
+    background-color: indigo;
+    padding: 10px 3.2rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.btn:hover,
+.btn:active{
+    background-color: rgb(95, 14, 95);
+}

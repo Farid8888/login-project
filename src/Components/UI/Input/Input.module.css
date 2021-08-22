@@ -1,0 +1,31 @@
+.input input{
+    width: 80%;
+    border: 1px solid rgb(192, 186, 186);
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1.3rem;
+    align-items: center;
+}
+
+.main label{
+    font-weight: bold;
+}
+
+.main input:focus{
+    outline: none;
+    border:1px solid black ;
+    background-color: rgba(235, 157, 235, 0.582);
+}
+
+.input.invalid input{
+    background-color: rgba(233, 77, 108, 0.486);
+    border-color:rgb(197, 8, 8);
+}
