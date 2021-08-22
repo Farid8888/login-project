@@ -29,3 +29,10 @@
     background-color: rgba(233, 77, 108, 0.486);
     border-color:rgb(197, 8, 8);
 }
+
+@media (max-width: 768px) {
+    .main {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
